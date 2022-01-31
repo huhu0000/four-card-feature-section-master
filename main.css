@@ -126,27 +126,7 @@ footer {
     }
 }
 
-@media (min-width:376px ) {
-    section {
-        display: flex;
-        margin: 15px;
-        flex-direction: column;
-        gap: 30px;
-    }
 
-
-    section div:last-child , section div:first-child{
-        transform: translate(0px , 0px);
-        -webkit-transform: translate(0px , 0px);
-        -moz-transform: translate(0px , 0px);
-        -ms-transform: translate(0px , 0px);
-        -o-transform: translate(0px , 0px);
-    }
-
-    h1 , h2 {
-        font-size: 24px;
-    }
-}
 
     @media (min-width: 500px) and (max-width: 1080px) {
         section {
