@@ -104,7 +104,7 @@ footer {
     text-align: center;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375px) and (max-width: 499px) {
     section {
         display: flex;
         margin: 15px;
